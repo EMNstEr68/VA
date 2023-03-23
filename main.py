@@ -1,7 +1,10 @@
+import sys
+
+!{sys.executable} -m pip install openai
+
 import openai
 import speech_recognition as sr
 import pyttsx3
-
 
 # Initialize OpenAI API
 openai.api_key = "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"
